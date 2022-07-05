@@ -8,7 +8,7 @@
 body{
   font-family:Montserrat ;
 }
-.order-btn{
+.btn{
   background-image: linear-gradient(to left, red, orange);
   color: white;
   border: none;
@@ -43,10 +43,31 @@ body{
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
- background-image: url(eat-healthy-main/images/shapes/7.png);
- background-repeat: no-repeat;
- justify-content: space-around;
+  background-image: url(eat-healthy-main/images/shapes/7.png);
+  background-repeat: no-repeat;
+  justify-content: space-around;
 }
 .set-image{
-text-align: left;  
+  text-align: left;  
+}
+.middle-sec{
+  margin-bottom: 50px;
+  padding: 0px;
+}
+
+.text-color{
+  font-weight: 550;
+  font-size: 13px;
+}
+.recipies-part{
+  text-align: center;
+}
+
+.recipe-title{
+  font-size: 30px;
+}
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+  
 }
