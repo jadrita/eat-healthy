@@ -61,6 +61,7 @@ body{
 }
 .recipies-part{
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .recipe-title{
@@ -68,6 +69,45 @@ body{
 }
 .flexbox{
   display: flex;
-  justify-content: space-between;
-  
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+.food-img1{
+  height: 350px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 30px 50px;
+}
+.left-recipe{
+  border: 8px;
+  border-style: hidden;
+  padding: 5px 5px;
+  border-radius: 15px;
+  box-shadow: 1px 5px 9px 18px rgba(187, 181, 178, 0.5);
+  width: 600px;
+  height: 550px;
+}
+.left-recipe-title{
+  padding-left: 20px;
+  margin-top: 0;
+}
+.img2{
+  border-radius: 20px;
+}
+.viewers-box{
+  border: 20px;
+  border-style: hidden;
+  border-radius: 15px;
+  display: flex;
+  justify-content:space-around;
+  box-shadow:1px 5px 9px 18px rgba(187, 181, 178, 0.5); 
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 120px;
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
 }
