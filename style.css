@@ -1,0 +1,52 @@
+.introduction{
+  margin-bottom: 50px;
+}
+
+.color-orange{
+  color: orange;
+}
+body{
+  font-family:Montserrat ;
+}
+.order-btn{
+  background-image: linear-gradient(to left, red, orange);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 25px; 
+  font-weight: 750;
+  margin-top: 0;
+}
+
+.top-bnr{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.text{
+  font-size: 35px;
+}
+.color-gray{
+  color: gray;
+  font-weight: bold
+}
+.top-bnr-title{
+  flex-direction: row;
+}
+.description{
+  font-weight: 450;
+  padding-right: 80px;
+
+}
+.second-part{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+ background-image: url(eat-healthy-main/images/shapes/7.png);
+ background-repeat: no-repeat;
+ justify-content: space-around;
+}
+.set-image{
+text-align: left;  
+}
